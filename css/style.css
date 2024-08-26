@@ -524,13 +524,13 @@ h6,
     position: absolute;
     top: 100%;
     left: 0;
-    width: 70vw; /* Full width of the viewport */
-    margin-left: -30vw; /* Adjust to align with the screen */
+    width: 80vw; /* Full width of the viewport */
+    margin-left: -40vw; /* Adjust to align with the screen */
     left: 50%;
     z-index: 1000;
     border: 1px solid #dee2e6;
     background-color: #ffffff; 
 }
 .nav-item:hover .services-box {
-    display: block;
+    display:flex;
 }
