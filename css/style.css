@@ -539,4 +539,15 @@ h6,
     background-color: #f8f9fa; /* Ensure this matches your design */
     border-radius: 5px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.services-box .list-unstyled {
+    display: block;
+}
+
+/* For screens less than 768px wide (Bootstrap's medium breakpoint) */
+@media (max-width: 767.98px) {
+    .services-box .list-unstyled {
+        display: none;
+    }
 }
