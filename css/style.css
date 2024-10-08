@@ -199,10 +199,18 @@ h6,
 }
 
 .page-header {
-    background: linear-gradient(rgba(15, 66, 41, .6), rgba(15, 66, 41, .6)), url(../img/gallery/team.jpg) center center no-repeat;
-    background-size: cover;
+    background: url(../img/gallery/team2.png) center center no-repeat;
+    background-size:cover;
 }
+@media (min-width: 670px) {
+    .page-header{
+        /* background: linear-gradient(rgba(15, 66, 41, .6), rgba(15, 66, 41, .6)), 
+        url(../img/gallery/team.jpg) center center no-repeat;
+        background-size:cover; */
+        background: url(../img/gallery/team.jpg) center center no-repeat;
 
+    }
+}
 .page-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
